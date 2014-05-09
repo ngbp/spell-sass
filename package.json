@@ -1,0 +1,51 @@
+{
+  "name": "warlock-spell-sass",
+  "version": "1.0.0-alpha.1",
+  "description": "An addon to add SASS support to the Warlock spell for managing client-side webapps.",
+  "homepage": "https://github.com/ngbp/spell-sass",
+  "author": {
+    "name": "Warlock Team",
+    "url": "http://getwarlock.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ngbp/spell-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngbp/spell-sass"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ngbp/spell-sass/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "peerDependencies": {
+    "warlock-spell-webapp": "~1.0.0"
+  },
+  "keywords": [
+    "warlockplugin",
+    "warlockspell"
+  ],
+  "warlock": {
+    "globs": {
+      "source": {
+        "sass": [
+          "<%= paths.source_app %>/**/*.sass",
+          "<%= paths.source_app %>/**/*.scss"
+        ]
+      }
+    },
+    "tasks": {
+      "sass-compile": {
+        "sourceComments": "map"
+      }
+    }
+  },
+  "dependencies": {
+    "gulp-sass": "~0.7"
+  }
+}
