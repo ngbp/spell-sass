@@ -41,7 +41,7 @@
     },
     "tasks": {
       "sass-compile": {
-        "sourceComments": "map"
+        "sourceComments": "none"
       }
     }
   },
