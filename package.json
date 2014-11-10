@@ -24,7 +24,7 @@
     "node": ">= 0.10.0"
   },
   "peerDependencies": {
-    "warlock-spell-webapp": "~1.0.0"
+    "warlock-spell-webapp": "~1.0.0-alpha.1"
   },
   "keywords": [
     "warlockplugin",
